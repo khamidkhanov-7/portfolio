@@ -77,10 +77,10 @@ export default function Contact() {
   };
 
   const inputBase =
-    'w-full rounded-xl border bg-ink-850/60 px-4 py-3 font-body text-sm text-ink-100 placeholder:text-ink-500 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30';
+    'w-full rounded-xl border bg-ink-850/60 px-4 py-3 font-body text-base text-ink-100 sm:text-sm placeholder:text-ink-500 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/30';
 
   return (
-    <section id="contact" className="relative py-28 lg:py-36">
+    <section id="contact" className="relative overflow-x-clip py-28 lg:py-36">
       {/* Background */}
       <div className="pointer-events-none absolute bottom-0 left-1/2 h-[400px] w-[700px] -translate-x-1/2 rounded-full bg-accent/5 blur-3xl" />
 

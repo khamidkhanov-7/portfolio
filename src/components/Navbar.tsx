@@ -110,7 +110,7 @@ export default function Navbar() {
           <button
             onClick={() => setMobileOpen((v) => !v)}
             data-cursor="pointer"
-            className="text-ink-200 md:hidden"
+            className="-mr-2.5 p-2.5 text-ink-200 md:hidden"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}

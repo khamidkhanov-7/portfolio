@@ -109,7 +109,7 @@ export default function Hero() {
 
           <motion.h1
             variants={itemVariants}
-            className="mt-4 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-ink-100 sm:text-6xl lg:text-7xl"
+            className="mt-4 max-w-4xl font-display text-[2rem] font-bold leading-[1.05] tracking-tight text-ink-100 min-[375px]:text-4xl sm:text-6xl lg:text-7xl"
           >
             Khamidkhanov{' '}
             <span className="text-gradient-accent">Mukhammazokhid</span>

@@ -22,7 +22,7 @@ export default function Skills() {
       : SKILLS.filter((s) => s.category === activeCategory);
 
   return (
-    <section id="skills" className="relative py-28 lg:py-36">
+    <section id="skills" className="relative overflow-x-clip py-28 lg:py-36">
       {/* Background accent */}
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/5 blur-3xl" />
 

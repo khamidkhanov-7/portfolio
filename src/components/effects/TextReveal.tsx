@@ -19,7 +19,7 @@ export default function TextReveal({ text, className = '', delay = 0, stagger = 
               key={ci}
               initial={{ opacity: 0, y: '0.4em' }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-50px' }}
+              viewport={{ once: true, margin: '-50px 0px' }}
               transition={{
                 delay: delay + (wi * word.length + ci) * stagger * 0.3,
                 duration: 0.5,
